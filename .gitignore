@@ -1,0 +1,69 @@
+# .NET Core build output
+bin/
+obj/
+out/
+
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+.vscode/
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# NuGet packages
+*.nupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# User-specific files
+*.rsuser
+*.swp
+*.*~
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# IDE files
+.idea/
+*.sln.iml
+.DS_Store
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+
+# Webpack generated files
+wwwroot/dist/
+wwwroot/bundle.*
+
+# Environment variables
+.env
+appsettings.Development.json
+appsettings.Production.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Misc
+*.bak
+*.tmp
+Thumbs.db
